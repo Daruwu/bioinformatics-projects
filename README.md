@@ -1,6 +1,6 @@
 # Bioinformatics Projects
 
-Python scripts developed during undergraduate and graduate bioinformatics coursework, focused on DNA sequence analysis algorithms built from scratch using core Python and BioPython. These tools replicate foundational computational biology techniques used in real genomics pipelines.
+Python scripts developed during undergraduate bioinformatics coursework, focused on DNA sequence analysis algorithms built from scratch using core Python and BioPython. These tools replicate foundational computational biology techniques used in real genomics pipelines.
 
 **Author:** Darien Nguyen  
 **Background:** B.S. Biology | M.S. Data Analytics, Western Governors University  
