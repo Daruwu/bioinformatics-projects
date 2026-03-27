@@ -48,16 +48,6 @@ def ReverseComplement(Pattern):
     revComp = Seq(Pattern.reverse_complement)
     return ('').join(revComp)[::-1]
 
-
-#def ReverseComplement(Pattern):
-#    revComp = map(complement, Pattern)
-#    return ('').join(revComp)[::-1]
-
-#def complement(Nucleotide):
-#    complements = { 'A': 'T', 'T' : 'A', 'G' : 'C', 'C' : 'G'}
-#    comp = complements[Nucleotide.upper()] 
-#    return comp
-
 def SymbolArray(Genome, symbol):
     array = {}
     n = len(Genome)
@@ -87,12 +77,6 @@ def hammingDist(seq1, seq2):
             distance += 1
         i += 1
     return distance
-
-#def HammingDistance(p, q):
-#    distance = 0
-#    for i in range(0, len(p)):
-#        if p[i] != q[i]: distance = distance + 1
-#    return distance
 
 def ApproximatePatternMatching(Pattern, Text, d):
     positions = [] 
